@@ -1,9 +1,26 @@
 body {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
+	font-size: 21px;
 }
 
 .main-container {
 	width: 570px;
 	margin: 0 auto;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+.article-author {
+	font-size: 16px;	
 }
