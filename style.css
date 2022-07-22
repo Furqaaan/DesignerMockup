@@ -76,3 +76,18 @@ a:hover {
 .article-author,.article-container h3 {
 	margin: 0;
 }
+
+.work-btn {
+	background-color: #99D930;
+	padding: 20px;
+	text-decoration: none;
+	color: #252525;
+	display: inline-flex;
+	margin-top: 30px;
+	font-weight: 900;
+}
+
+.work-btn:hover {
+	background-color: #252525;
+	color: white;
+}
