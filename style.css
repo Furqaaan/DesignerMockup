@@ -13,12 +13,12 @@ body {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: 300;
 }
 
 h2 {
-	font-size: 42px;
+	font-size: 60px;
 	font-weight: 300;
 	width: 570px;
 	padding: 30px;
@@ -39,26 +39,29 @@ h1 span {
 	font-size: 80px;
 	display: block;
 	font-weight: 900;
+	color: #99D930
 }
 
 h2 span {
 	font-size: 60px;
 	display: block;
 	font-weight: 900;
+	color: #99D930
 }
 
 h3 span {
 	font-size: 50px;
 	display: block;
 	font-weight: 900;
+	color: #99D930
 }
 
-a {
+a , .article-container span{
 	color: #99D930;
 }
 
 a:hover {
-	color: #131313;
+	color: #FFF;
 }
 
 .header-container , .article-container{
@@ -96,3 +99,9 @@ a:hover {
 	background-color: #252525;
 	color: white;
 }
+
+.article-container > .work-btn:hover {
+	background-color: #FFF;
+	color: #252525;
+}
+
