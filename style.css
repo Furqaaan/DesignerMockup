@@ -1,7 +1,10 @@
+
+
 body {
 	text-align: center;
 	font-family: "Roboto", sans-serif;
 	font-size: 21px;
+	margin: 0;
 }
 
 .main-container {
@@ -53,18 +56,14 @@ a:hover {
 	color: #131313;
 }
 
-.header-container {
-	background-color: #D7D7D7;
+.header-container , .article-container{
+	background-color: #252525;
 	padding: 100px 0;
+	color: #FFF;
 }
 
 .info-container {
-	background-color: #FFEAEA;
-	padding: 100px 0;
-}
-
-.article-container {
-	background-color: #EAF9FF;
+	background-color: #FFF;
 	padding: 100px 0;
 }
 
